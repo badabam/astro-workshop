@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "astro-build.astro-vscode",
+    "marp-team.marp-vscode",
+    "esbenp.prettier-vscode"
+  ]
+}
