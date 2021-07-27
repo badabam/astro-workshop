@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "start": "cd landingpage && npm start",
+    "build": "cd landingpage && npm run build",
+    "postinstall": "cd landingpage && npm install",
+    "slides": "npx marp -sw --theme ./slides/theme.css ./slides",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^0.23.0"
+  },
+  "private": true,
+  "author": "Jerry Erbs <jerry@badabam.de> (https://badabam.de)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badabam/astro-workshop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/badabam/astro-workshop/issues"
+  },
+  "homepage": "https://github.com/badabam/astro-workshop#readme"
+}

@@ -1,0 +1,143 @@
+/* @theme neuefische */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --color-white: #fefefe;
+  --color-black: #333;
+
+  --color-blue: #193251;
+  --color-orange: #ff5a36;
+
+  --color-gray-10: #3a485a;
+  --color-gray-20: #516278;
+  --color-gray-30: #95a1b3;
+  --color-gray-40: #c8cfd9;
+  --color-gray-50: #eaeef2;
+}
+
+/* normal slides */
+section {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  width: 1440px;
+  height: 900px;
+  font-size: 40px;
+  padding: 40px;
+  background: var(--color-white);
+  color: var(--color-blue);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 300;
+  margin: 0;
+}
+
+h2 {
+  color: var(--color-orange);
+}
+
+a:any-link {
+  color: var(--color-blue);
+  text-decoration: none;
+  border-bottom: 0.1em solid;
+}
+
+table {
+  width: 100%;
+  padding: 40px 0;
+}
+thead {
+  text-align: left;
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+  opacity: 0.4;
+  font-size: smaller;
+}
+
+li {
+  font-size: 1.5em;
+  line-height: 1.3em;
+  position: relative;
+}
+
+bold {
+  color: var(--color-orange);
+}
+
+em {
+  color: var(--color-orange);
+}
+
+.dim {
+  opacity: 0.5;
+}
+
+/* lead slide */
+section.lead {
+  display: grid;
+  place-content: center;
+  background: var(--color-orange);
+  color: var(--color-white);
+}
+
+section.sublead {
+  display: grid;
+  place-content: center;
+  color: var(--color-orange);
+  background: var(--color-white);
+}
+
+section.tags li:last-child::after {
+  content: '';
+  display: block;
+  width: 10px;
+  background: var(--color-gray-40);
+  height: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/* fraktions (lists with asterisks) */
+section.tags li {
+  display: inline-block;
+  margin: 4px;
+  color: var(--color-gray-0);
+  background: var(--color-gray-50);
+  border: 2px solid var(--color-gray-40);
+  padding: 4px 12px;
+}
+
+ul ul > li,
+ul ol > li,
+ol ul > li,
+ol ol > li {
+  font-size: inherit;
+  background: white !important;
+}
+
+section.tags [data-marpit-fragment] {
+  color: var(--color-gray-30);
+}
+
+section.tags [data-bespoke-marp-current-fragment='current'] {
+  color: var(--color-gray-10);
+}
+
+section.blocks ul {
+  display: grid;
+  align-content: start;
+  /* justify-items: start; */
+  grid-template-columns: max-content;
+}
+
+section.blocks [data-marpit-fragment] {
+  display: block;
+}
