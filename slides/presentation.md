@@ -111,13 +111,14 @@ title: 🚀 Astro Workshop
 
 ---
 <!-- _class: tags blocks -->
-## Capstone Landingpage
+## Aufgaben
 
-* HTML ist vorhanden
-* Komponenten erzeugen
-* Props verwenden
-* Styling
-* Fragen aufschreiben
+* Benutze vorhandenes HTML
+* Erzeuge Komponenten
+* Wie verwendet man Layouts?
+* Verwende props
+* Füge Styling hinzu
+* Schreib Fragen auf
 
 ---
 <!-- _class: tags blocks -->
@@ -143,7 +144,7 @@ title: 🚀 Astro Workshop
 # ASTRO
 
 ---
-<!-- _class: tags -->
+<!-- _class: tags blocks -->
 ## Astro
 * Erzeugt HTML-Seiten
 * eigene statische Komponenten
