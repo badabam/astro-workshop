@@ -111,13 +111,14 @@ title: 🚀 Astro Workshop
 
 ---
 <!-- _class: tags blocks -->
-## Aufgaben
+## Mögliche Herangehensweise
 
 * Benutze vorhandenes HTML
-* Erzeuge Komponenten
+* Erzeuge Komponenten mit Astro
 * Wie verwendet man Layouts?
-* Verwende props
+* Verwende Astro.props
 * Füge Styling hinzu
+* Arbeite mit React
 * Schreib Fragen auf
 
 ---
