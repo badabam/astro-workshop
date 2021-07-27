@@ -4,4 +4,4 @@ package-lock.json
 build
 
 # leave alone the slides
-astro-workshop.md
+slides/*.md

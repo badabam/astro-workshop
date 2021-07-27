@@ -1,6 +1,6 @@
 # 🚀 ASTRO Workshop
 
-This is a workshop about ASTRO, a new static site builder that uses the island
+This is a workshop about ASTRO, a new static site builder
 
 ## Structure
 
