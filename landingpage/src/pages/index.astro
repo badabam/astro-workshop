@@ -1,56 +1,66 @@
 ---
-// Component Imports
-import Tour from '../components/Tour.astro';
-// You can import components from any supported Framework here!
-import ReactCounter from '../components/ReactCounter.jsx';
-
-// Component Script:
-// You can write any JavaScript/TypeScript that you'd like here.
-// It will run during the build, but never in the browser.
-// All variables are available to use in the HTML template below.
-let title = 'My Astro Site';
-
-// Full Astro Component Syntax:
-// https://docs.astro.build/core-concepts/astro-components/
+import ImageSlider from '../components/ImageSlider.jsx'
 ---
+
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{title}</title>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <link rel="stylesheet" href="/style/global.css">
-    <link rel="stylesheet" href="/style/home.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traxx - my super app!</title>
+    <style global>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
 
-    <style>
-        header {
-            display: flex;
-            flex-direction: column;
-            gap: 1em;
-            max-width: min(100%, 68ch);
-        }
+      body {
+        margin: 0;
+        font-family: sans-serif;
+        line-height: 1.4;
+      }
     </style>
-</head>
-<body>
-    <main>
-        <header>
-            <div>
-                <img width="60" height="80" src="/assets/logo.svg" alt="Astro logo">
-                <h1>Welcome to <a href="https://astro.build/">Astro</a></h1>
-            </div>
-        </header>
-
-        <Tour />
-
-        <!--
-           - You can also use imported framework components directly in your markup!
-           -
-           - Note: by default, these components are NOT interactive on the client.
-           - The `:visible` directive tells Astro to make it interactive.
-           -
-           - See https://docs.astro.build/core-concepts/component-hydration/ 
-           -->
-        <ReactCounter client:visible />
-    </main>
-</body>
+  </head>
+  <body>
+    <header>
+      <h1>Traxx - my super app!</h1>
+      <ul>
+        <li>it's great</li>
+        <li>it works soooo good</li>
+        <li>it has features</li>
+        <li>it si exactly what you need</li>
+      </ul>
+      <aside>
+        <h2>More</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium
+          sequi dolor aperiam! Veritatis quibusdam omnis facilis atque magnam,
+          vitae rerum nemo quidem excepturi, totam explicabo. Voluptas quas
+          voluptatem aut magnam!
+        </p>
+      </aside>
+      <button>More ...</button>
+    </header>
+    <section>
+      <h2>Features</h2>
+      <ul>
+        <li>Offline</li>
+        <li>Undo/redo</li>
+        <li>Add pictures</li>
+        <li>Unlimited</li>
+        <li>Darkmode</li>
+    </section>
+    <section>
+      <h2>Technologies</h2>
+      <ul>
+        <li>React</li>
+        <li>React-Router</li>
+        <li>Styled-Components</li>
+        <li>LocalStorage</li>
+        <li>LocalStorage</li>
+    </section>
+    <ImageSlider images={['https://source.unsplash.com/random/375x667']} client:load />
+  </body>
 </html>
