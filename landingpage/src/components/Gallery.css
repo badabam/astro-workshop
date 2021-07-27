@@ -1,0 +1,26 @@
+.Gallery {
+  display: grid;
+  gap: 1px;
+  width: max-content;
+  border: 1px solid #ddd;
+}
+
+.Gallery__menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: stretch;
+  gap: 1px;
+}
+
+.Gallery__button {
+  border: none;
+  background: #444;
+  color: white;
+  width: 100%;
+  padding: 8px;
+}
+
+.Gallery__button--active {
+  background: hotpink;
+}

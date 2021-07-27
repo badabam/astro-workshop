@@ -1,8 +1,9 @@
 ---
-_class: lead
+marp: true
 ratio: 16:9
 title: 🚀 Astro Workshop
 ---
+<!-- _class: lead -->
 
 # Astro workshop
 
@@ -110,20 +111,30 @@ title: 🚀 Astro Workshop
 
 ---
 <!-- _class: tags blocks -->
+## Capstone Landingpage
+
+* HTML ist vorhanden
+* Komponenten erzeugen
+* Props verwenden
+* Styling
+* Fragen aufschreiben
+
+---
+<!-- _class: tags blocks -->
 <!-- _footer: 10:25 - 10:35 -->
 
 ## Material
 
  * Projekt-Template
- * 2 Artikel
+ * Zwei Links zum aktiven Lesen
  * Notizen-Template
- * Kein Zeitlimit
+ * Kein Zeitlimit für Aufgabe
  * Austausch nach 1 Stunde
 
 ---
 <!-- _class: sublead -->
 
-##  github.com/badabam/astro-workshop
+##  github.com/badabam/astro-workshop#readme
 
 ---
 <!-- _class: lead -->
@@ -143,10 +154,19 @@ title: 🚀 Astro Workshop
 ---
 <!-- _class: sublead -->
 
-## DEMO
+## BEWARE!
 
+---
+<!-- _class: tags blocks -->
+## BEWARE!
+* Beta-Software
+* Konzentration auf Astro-Components
+* React ohne Styled-Components
+* Focus auf Lernen, nicht Umsetzen
 ---
 
 <!-- _class: sublead -->
 
-# Danke für eure Zeit!
+# Wir sehen uns um 11:45 Uhr!
+
+---

@@ -1,5 +1,5 @@
 ---
-import ImageSlider from '../components/ImageSlider.jsx'
+import Gallery from '../components/Gallery.jsx'
 ---
 
 <!DOCTYPE html>
@@ -21,6 +21,12 @@ import ImageSlider from '../components/ImageSlider.jsx'
         font-family: sans-serif;
         line-height: 1.4;
       }
+
+      button, input, textarea {
+        font-size: inherit;
+        font-family: inherit;
+      }
+
     </style>
   </head>
   <body>
@@ -32,7 +38,7 @@ import ImageSlider from '../components/ImageSlider.jsx'
         <li>it has features</li>
         <li>it si exactly what you need</li>
       </ul>
-      <aside>
+      <aside hidden>
         <h2>More</h2>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium
@@ -59,8 +65,7 @@ import ImageSlider from '../components/ImageSlider.jsx'
         <li>React-Router</li>
         <li>Styled-Components</li>
         <li>LocalStorage</li>
-        <li>LocalStorage</li>
     </section>
-    <ImageSlider images={['https://source.unsplash.com/random/375x667']} client:load />
+    <Gallery client:load />
   </body>
 </html>

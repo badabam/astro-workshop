@@ -8,9 +8,15 @@ This is a workshop about Astro, a new static site builder. It contains a present
 - What is Active Reading?
 - How to get started with Astro?
 
-## Structure
+## Exercise
 
-Besides a template to create a simple ASTRO page, this project contains some supplement files:
+- Use existing HTML
+- Create components
+- Use Astro props
+- Figure out styling
+- Write down questions
+
+## Structure
 
 ```shell
 $ ./landingpage # the project to build a page
