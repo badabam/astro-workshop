@@ -14,7 +14,7 @@ title: 🚀 Astro Workshop
 | Zeit  | Phase                              |
 | ----- | ---------------------------------- |
 | 10:00 | Warum neues Format?                |
-| 10:10 | Aktives Lernen, Aktives Lesen      |
+| 10:05 | Aktives Lernen, Aktives Lesen      |
 | 10:25 | Aufgabenbesprechung                |
 | 10:35 | Talk: Einführung in Astro          |
 | 10:45 | Aktive Lernphase                   |
@@ -28,7 +28,7 @@ title: 🚀 Astro Workshop
 
 ---
 <!-- _class: tags blocks -->
-<!-- _footer: 10:00 - 10:10 -->
+<!-- _footer: 10:00 - 10:05 -->
 
 ## Warum neues Format?
 
@@ -40,7 +40,7 @@ title: 🚀 Astro Workshop
 
 ---
 <!-- _class: lead -->
-<!-- _footer: (1/3) 10:10 - 10:25 -->
+<!-- _footer: (1/3) 10:05 - 10:25 -->
 
 # Aktives Lernen, Aktives Lesen
 
@@ -58,7 +58,7 @@ title: 🚀 Astro Workshop
 
 ---
 <!-- _class: sublead tags -->
-<!-- _footer: (2/3) 10:10 - 10:25 -->
+<!-- _footer: (2/3) 10:05 - 10:25 -->
 
 # Aktives Lernen
 
@@ -74,7 +74,7 @@ title: 🚀 Astro Workshop
 
 ---
 <!-- _class: sublead tags -->
-<!-- _footer: (3/3) 10:10 - 10:25 -->
+<!-- _footer: (3/3) 10:05 - 10:25 -->
 
 # Aktives Lesen
 

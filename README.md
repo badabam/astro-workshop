@@ -1,6 +1,12 @@
 # 🚀 ASTRO Workshop
 
-This is a workshop about ASTRO, a new static site builder
+This is a workshop about Astro, a new static site builder. It contains a presentation (`$ npm run slides`), two templates for your notes and the project setup for your exercise: build a _landing page_ with Astro.
+
+## In this workshop you learn
+
+- What is Active Learning?
+- What is Active Reading?
+- How to get started with Astro?
 
 ## Structure
 
@@ -10,10 +16,10 @@ Besides a template to create a simple ASTRO page, this project contains some sup
 $ ./landingpage # the project to build a page
 $ ./notes # a place to store the Active Reading results
 $ ./slides # the presentation slides for this workshop
-$ ./slides/traxx-design.png # the scribble
+$ ./slides/traxx-design.png # wireframe for the landing page
 ```
 
-## Reading Material
+## Recommended Material
 
 This are just starting points for your _Active Reading_. Go and find other resources.
 
