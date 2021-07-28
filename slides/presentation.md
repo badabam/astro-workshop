@@ -172,3 +172,9 @@ title: 🚀 Astro Workshop
 # Wir sehen uns um 11:45 Uhr!
 
 ---
+<!-- _class: lead -->
+# Fragen klären
+
+---
+<!-- _class: sublead -->
+## github.com/badabam/astro-workshop/*discussions*
